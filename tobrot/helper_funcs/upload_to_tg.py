@@ -169,7 +169,7 @@ async def upload_to_gdrive(file_upload, message, messa_ge, g_id):
             indexurl = f"{INDEX_LINK}/{file_upload}"
             tam_link = requests.utils.requote_uri(indexurl)
             print(tam_link)
-            button.append([pyrogram.InlineKeyboardButton(text="♻️ Direct Link ♻️", url=f"{tam_link}")])
+            button.append([pyrogram.InlineKeyboardButton(text="🎉 Direct Link 🎉", url=f"{tam_link}")])
         button_markup = pyrogram.InlineKeyboardMarkup(button)
         await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
         await messa_ge.reply_text(f"{file_upload} has been Upload successfully to Google Drive <a href='tg://user?id={g_id}'>👌</a>\n\n💾 Size: {gjay}", reply_markup=button_markup)
@@ -207,7 +207,7 @@ async def upload_to_gdrive(file_upload, message, messa_ge, g_id):
             indexurl = f"{INDEX_LINK}/{file_upload}/"
             tam_link = requests.utils.requote_uri(indexurl)
             print(tam_link)
-            button.append([pyrogram.InlineKeyboardButton(text=♻️ Direct Link ♻️", url=f"{tam_link}")])
+            button.append([pyrogram.InlineKeyboardButton(text="🎉 Direct Link 🎉", url=f"{tam_link}")])
         button_markup = pyrogram.InlineKeyboardMarkup(button)
         await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
         await messa_ge.reply_text(f"{file_upload} has been Upload successfully to Google Drive <a href='tg://user?id={g_id}'>👌</a>\n\n💾 Size: {gjay}", reply_markup=button_markup)

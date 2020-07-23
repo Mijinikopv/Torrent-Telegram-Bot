@@ -77,4 +77,4 @@ async def down_load_media_f(client, message):
             LOGGER.info(gaut_response)
     else:
         #await asyncio.sleep(4)
-        await mess_age.edit_text("Reply to a Telegram Media, to upload to the Cloud Drive.")
+        await mess_age.edit_text("Reply to a Telegram Media, to upload to the Google Drive.")

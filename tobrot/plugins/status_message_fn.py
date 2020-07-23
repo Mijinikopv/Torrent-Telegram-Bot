@@ -87,7 +87,7 @@ async def cancel_message_f(client, message):
             LOGGER.info(downloads)
             LOGGER.info(downloads.remove(force=True))
             await i_m_s_e_g.edit_text(
-                "Leech Cancelled"
+                "Torrent Cancel"
             )
         except Exception as e:
             await i_m_s_e_g.edit_text(

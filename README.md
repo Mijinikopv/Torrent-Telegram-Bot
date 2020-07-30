@@ -1,7 +1,7 @@
 # for support join here [TorrentLeech-Gdrive](https://telegram.dog/torrentleechgdrivesupport)
 # working example group [Leech Here](https://telegram.dog/torrentleechgdrive)
 
-# Telegram Torrent Leecher 🔥🤖
+# Telegram Torrent Leecher 🔥
 
 A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
 
